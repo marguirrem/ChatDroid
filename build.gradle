@@ -8,9 +8,14 @@ buildscript {
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.4.1'
-        classpath 'com.google.gms:google-services:4.2.0'
+        classpath 'com.google.gms:google-services:4.0.1'
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
+    }
+    configurations.all {
+        resolutionStrategy {
+            force 'com.android.support:support-v4:27.1.0'
+        }
     }
 }
 
@@ -26,9 +31,10 @@ task clean(type: Delete) {
     delete rootProject.buildDir
 }
 ext{
-    butterKifeVersion = "10.1.0"
-    sdkVersion =""
+    butterKifeVersion = "8.8.1"
+    sdkVersion ="27"
     firebaseCoreVersion = "16.0.1"
     glideVersion ="4.9.0"
     circleImageViewVersion ="3.0.0"
+
 }
