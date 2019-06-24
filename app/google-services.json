@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "292444382126",
+    "firebase_url": "https://mi-chat-android.firebaseio.com",
+    "project_id": "mi-chat-android",
+    "storage_bucket": "mi-chat-android.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:292444382126:android:3577df644f54c930",
+        "android_client_info": {
+          "package_name": "com.marlonaguirre.chatdroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "292444382126-ggfo1fu07kcrf5r9m8t0un7fhv5n493g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDT-4OXfWX33Bjjs2T_cvZZrDT3h-zKlG8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "292444382126-ggfo1fu07kcrf5r9m8t0un7fhv5n493g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
